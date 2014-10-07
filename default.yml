@@ -20,6 +20,9 @@ pre:
 # Change the command to call tmux.  This can be used by derivatives/wrappers like byobu.
 # tmux_command: byobu
 
+# custom layout
+# > tmux list-window
+
 windows:
   - working:
       layout: 30c1,270x49,0,0{135x49,0,0,0,134x49,136,0[134x24,136,0,1,134x24,136,25,2]}
